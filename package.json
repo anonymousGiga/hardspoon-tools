@@ -1,0 +1,20 @@
+{
+  "name": "hardspoon-tools",
+  "version": "1.0.0",
+  "scripts": {
+    "show-key": "ts-node src/show-key.ts",
+    "recover": "ts-node src/recover.ts"
+  },
+  "dependencies": {
+    "@polkadot/api": "^6.11.1",
+    "@polkadot/keyring": "^8.1.2",
+    "@polkadot/util": "^8.1.2",
+    "@polkadot/util-crypto": "^8.1.2",
+    "buffer-reverse": "^1.0.1",
+    "json-bigint": "^1.0.0",
+    "xxhash-addon": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12"
+  }
+}
